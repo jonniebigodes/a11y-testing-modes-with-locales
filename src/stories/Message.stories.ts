@@ -8,14 +8,12 @@ const meta = {
   title: "Components/Message",
   component: Message,
   parameters: {
-    parameters: {
-      chromatic: {
-        //🔶 Test each story for MyComponent in three modes
-        modes: {
-          english: allModes["english"],
-          german: allModes["german"],
-          arabic: allModes["arabic"],
-        },
+    chromatic: {
+      //🔶 Test each story for MyComponent in three modes
+      modes: {
+        english: allModes["english"],
+        german: allModes["german"],
+        arabic: allModes["arabic"],
       },
     },
   },
